@@ -37,11 +37,11 @@ namespace WebApplication.Models
             : base("DefaultConnection", throwIfV1Schema: false)
         {
         }
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-            Database.SetInitializer(new MigrateDatabaseToLatestVersion<ApplicationDbContext,Configuration>());
-            base.OnModelCreating(modelBuilder);
-        }
+        //protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        //{
+        //    Database.SetInitializer(new MigrateDatabaseToLatestVersion<ApplicationDbContext,Configuration>());
+        //    base.OnModelCreating(modelBuilder);
+        //}
 
         public static ApplicationDbContext Create()
         {
