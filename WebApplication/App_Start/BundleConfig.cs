@@ -322,8 +322,8 @@ namespace WebApplication
                                          "~/AdminLTE/plugins/flot/js/jquery.flot.categories.min.js"));
 
             // plugins | font-awesome
-            bundles.Add(new StyleBundle("~/AdminLTE/plugins/font-awesome/cssboot").Include(
-                                        "~/AdminLTE/plugins/font-awesome/css/font-awesome.min.css"));
+            bundles.Add(new StyleBundle("~/AdminLTE/plugins/font-awesome/cssboot", "http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css"));//.Include(
+                                       // "~/AdminLTE/plugins/font-awesome/css/font-awesome.min.css"));
 
             // plugins | fullcalendar
             bundles.Add(new Bundle("~/AdminLTE/plugins/fullcalendar/jsboot").Include(
