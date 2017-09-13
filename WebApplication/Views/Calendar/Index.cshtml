@@ -7,9 +7,9 @@
     @Scripts.Render("~/Scripts/Calendar/menu")
 }
 
-@Styles.Render("~/AdminLTE/plugins/fullcalendar/css")
+@Styles.Render("~/AdminLTE/plugins/fullcalendar/cssboot")
 <link rel="stylesheet" href="@Styles.Url("~/AdminLTE/plugins/fullcalendar/css/print")" media="print">
-@Styles.Render("~/AdminLTE/dist/css")
+@Styles.Render("~/AdminLTE/dist/cssboot")
 
 <div class="row">
     <div class="col-md-3">
@@ -74,8 +74,8 @@
 </div>
 
 @section Scripts {
-    @Scripts.Render("~/AdminLTE/plugins/jquery-ui/js")
-    @Scripts.Render("~/AdminLTE/plugins/momentjs/js")
-    @Scripts.Render("~/AdminLTE/plugins/fullcalendar/js")
+    @Scripts.Render("~/AdminLTE/plugins/jquery-ui/jsboot")
+    @Scripts.Render("~/AdminLTE/plugins/momentjs/jsboot")
+    @Scripts.Render("~/AdminLTE/plugins/fullcalendar/jsboot")
     @Scripts.Render("~/Scripts/Calendar")
 }

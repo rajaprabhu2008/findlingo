@@ -234,205 +234,205 @@ namespace WebApplication
         private static void RegisterLayout(BundleCollection bundles)
         {
             
-            bundles.Add(new Bundle("~/AdminLTE/bootstrap/js").Include(
+            bundles.Add(new Bundle("~/AdminLTE/bootstrap/jsboot").Include(
                 "~/AdminLTE/bootstrap/js/bootstrap.min.js"));
 
             bundles.Add(new StyleBundle("~/AdminLTE/bootstrap/cssboot").Include(
                 "~/AdminLTE/bootstrap/css/bootstrap.min.css"));
             
             // dist
-            bundles.Add(new Bundle("~/AdminLTE/dist/js").Include(
+            bundles.Add(new Bundle("~/AdminLTE/dist/jsboot").Include(
                 "~/AdminLTE/dist/js/app.js"));
 
-            bundles.Add(new StyleBundle("~/AdminLTE/dist/css").Include(
+            bundles.Add(new StyleBundle("~/AdminLTE/dist/cssboot").Include(
                 "~/AdminLTE/dist/css/admin-lte.min.css"));
 
-            bundles.Add(new StyleBundle("~/AdminLTE/dist/css/skins").Include(
+            bundles.Add(new StyleBundle("~/AdminLTE/dist/css/skinsboot").Include(
                 "~/AdminLTE/dist/css/skins/_all-skins.min.css"));
 
             // documentation
-            bundles.Add(new Bundle("~/AdminLTE/documentation/js").Include(
+            bundles.Add(new Bundle("~/AdminLTE/documentation/jsboot").Include(
                 "~/AdminLTE/documentation/js/docs.js"));
 
-            bundles.Add(new StyleBundle("~/AdminLTE/documentation/css").Include(
+            bundles.Add(new StyleBundle("~/AdminLTE/documentation/cssboot").Include(
                 "~/AdminLTE/documentation/css/style.css"));
 
             // plugins | bootstrap-slider
-            bundles.Add(new Bundle("~/AdminLTE/plugins/bootstrap-slider/js").Include(
+            bundles.Add(new Bundle("~/AdminLTE/plugins/bootstrap-slider/jsboot").Include(
                                         "~/AdminLTE/plugins/bootstrap-slider/js/bootstrap-slider.js"));
 
-            bundles.Add(new StyleBundle("~/AdminLTE/plugins/bootstrap-slider/css").Include(
+            bundles.Add(new StyleBundle("~/AdminLTE/plugins/bootstrap-slider/cssboot").Include(
                                         "~/AdminLTE/plugins/bootstrap-slider/css/slider.css"));
 
             // plugins | bootstrap-wysihtml5
-            bundles.Add(new Bundle("~/AdminLTE/plugins/bootstrap-wysihtml5/js").Include(
+            bundles.Add(new Bundle("~/AdminLTE/plugins/bootstrap-wysihtml5/jsboot").Include(
                                          "~/AdminLTE/plugins/bootstrap-wysihtml5/js/bootstrap3-wysihtml5.all.min.js"));
 
-            bundles.Add(new StyleBundle("~/AdminLTE/plugins/bootstrap-wysihtml5/css").Include(
+            bundles.Add(new StyleBundle("~/AdminLTE/plugins/bootstrap-wysihtml5/cssboot").Include(
                                         "~/AdminLTE/plugins/bootstrap-wysihtml5/css/bootstrap3-wysihtml5.min.css"));
 
             // plugins | chartjs
-            bundles.Add(new Bundle("~/AdminLTE/plugins/chartjs/js").Include(
+            bundles.Add(new Bundle("~/AdminLTE/plugins/chartjs/jsboot").Include(
                                          "~/AdminLTE/plugins/chartjs/js/chart.min.js"));
 
             // plugins | ckeditor
-            bundles.Add(new Bundle("~/AdminLTE/plugins/ckeditor/js").Include(
+            bundles.Add(new Bundle("~/AdminLTE/plugins/ckeditor/jsboot").Include(
                                          "~/AdminLTE/plugins/ckeditor/js/ckeditor.js"));
 
             // plugins | colorpicker
-            bundles.Add(new Bundle("~/AdminLTE/plugins/colorpicker/js").Include(
+            bundles.Add(new Bundle("~/AdminLTE/plugins/colorpicker/jsboot").Include(
                                          "~/AdminLTE/plugins/colorpicker/js/bootstrap-colorpicker.min.js"));
 
-            bundles.Add(new StyleBundle("~/AdminLTE/plugins/colorpicker/css").Include(
+            bundles.Add(new StyleBundle("~/AdminLTE/plugins/colorpicker/cssboot").Include(
                                         "~/AdminLTE/plugins/colorpicker/css/bootstrap-colorpicker.css"));
 
             // plugins | datatables
-            bundles.Add(new Bundle("~/AdminLTE/plugins/datatables/js").Include(
+            bundles.Add(new Bundle("~/AdminLTE/plugins/datatables/jsboot").Include(
                                          "~/AdminLTE/plugins/datatables/js/jquery.dataTables.min.js",
                                          "~/AdminLTE/plugins/datatables/js/dataTables.bootstrap.min.js"));
 
-            bundles.Add(new StyleBundle("~/AdminLTE/plugins/datatables/css").Include(
+            bundles.Add(new StyleBundle("~/AdminLTE/plugins/datatables/cssboot").Include(
                                         "~/AdminLTE/plugins/datatables/css/dataTables.bootstrap.css"));
 
             // plugins | datepicker
-            bundles.Add(new Bundle("~/AdminLTE/plugins/datepicker/js").Include(
+            bundles.Add(new Bundle("~/AdminLTE/plugins/datepicker/jsboot").Include(
                                          "~/AdminLTE/plugins/datepicker/js/bootstrap-datepicker.js",
                                          "~/AdminLTE/plugins/datepicker/js/locales/bootstrap-datepicker*"));
 
-            bundles.Add(new StyleBundle("~/AdminLTE/plugins/datepicker/css").Include(
+            bundles.Add(new StyleBundle("~/AdminLTE/plugins/datepicker/cssboot").Include(
                                         "~/AdminLTE/plugins/datepicker/css/datepicker3.css"));
 
             // plugins | daterangepicker
-            bundles.Add(new Bundle("~/AdminLTE/plugins/daterangepicker/js").Include(
+            bundles.Add(new Bundle("~/AdminLTE/plugins/daterangepicker/jsboot").Include(
                                          "~/AdminLTE/plugins/daterangepicker/js/moment.min.js",
                                          "~/AdminLTE/plugins/daterangepicker/js/daterangepicker.js"));
 
-            bundles.Add(new StyleBundle("~/AdminLTE/plugins/daterangepicker/css").Include(
+            bundles.Add(new StyleBundle("~/AdminLTE/plugins/daterangepicker/cssboot").Include(
                                         "~/AdminLTE/plugins/daterangepicker/css/daterangepicker-bs3.css"));
 
             // plugins | fastclick
-            bundles.Add(new Bundle("~/AdminLTE/plugins/fastclick/js").Include(
+            bundles.Add(new Bundle("~/AdminLTE/plugins/fastclick/jsboot").Include(
                                          "~/AdminLTE/plugins/fastclick/js/fastclick.min.js"));
 
             // plugins | flot
-            bundles.Add(new Bundle("~/AdminLTE/plugins/flot/js").Include(
+            bundles.Add(new Bundle("~/AdminLTE/plugins/flot/jsboot").Include(
                                          "~/AdminLTE/plugins/flot/js/jquery.flot.min.js",
                                          "~/AdminLTE/plugins/flot/js/jquery.flot.resize.min.js",
                                          "~/AdminLTE/plugins/flot/js/jquery.flot.pie.min.js",
                                          "~/AdminLTE/plugins/flot/js/jquery.flot.categories.min.js"));
 
             // plugins | font-awesome
-            bundles.Add(new StyleBundle("~/AdminLTE/plugins/font-awesome/css").Include(
+            bundles.Add(new StyleBundle("~/AdminLTE/plugins/font-awesome/cssboot").Include(
                                         "~/AdminLTE/plugins/font-awesome/css/font-awesome.min.css"));
 
             // plugins | fullcalendar
-            bundles.Add(new Bundle("~/AdminLTE/plugins/fullcalendar/js").Include(
+            bundles.Add(new Bundle("~/AdminLTE/plugins/fullcalendar/jsboot").Include(
                                          "~/AdminLTE/plugins/fullcalendar/js/fullcalendar.min.js"));
 
-            bundles.Add(new StyleBundle("~/AdminLTE/plugins/fullcalendar/css").Include(
+            bundles.Add(new StyleBundle("~/AdminLTE/plugins/fullcalendar/cssboot").Include(
                                         "~/AdminLTE/plugins/fullcalendar/css/fullcalendar.min.css"));
 
-            bundles.Add(new StyleBundle("~/AdminLTE/plugins/fullcalendar/css/print").Include(
+            bundles.Add(new StyleBundle("~/AdminLTE/plugins/fullcalendar/css/printboot").Include(
                                         "~/AdminLTE/plugins/fullcalendar/css/print/fullcalendar.print.css"));
 
             // plugins | icheck
-            bundles.Add(new Bundle("~/AdminLTE/plugins/icheck/js").Include(
+            bundles.Add(new Bundle("~/AdminLTE/plugins/icheck/jsboot").Include(
                                          "~/AdminLTE/plugins/icheck/js/icheck.min.js"));
 
-            bundles.Add(new StyleBundle("~/AdminLTE/plugins/icheck/css").Include(
+            bundles.Add(new StyleBundle("~/AdminLTE/plugins/icheck/cssboot").Include(
                                         "~/AdminLTE/plugins/icheck/css/all.css"));
 
-            bundles.Add(new StyleBundle("~/AdminLTE/plugins/icheck/css/flat").Include(
+            bundles.Add(new StyleBundle("~/AdminLTE/plugins/icheck/css/flatboot").Include(
                                         "~/AdminLTE/plugins/icheck/css/flat/flat.css"));
 
-            bundles.Add(new StyleBundle("~/AdminLTE/plugins/icheck/css/sqare/blue").Include(
+            bundles.Add(new StyleBundle("~/AdminLTE/plugins/icheck/css/sqare/blueboot").Include(
                                         "~/AdminLTE/plugins/icheck/css/sqare/blue.css"));
 
             // plugins | input-mask
-            bundles.Add(new Bundle("~/AdminLTE/plugins/input-mask/js").Include(
+            bundles.Add(new Bundle("~/AdminLTE/plugins/input-mask/jsboot").Include(
                                          "~/AdminLTE/plugins/input-mask/js/jquery.inputmask.js",
                                          "~/AdminLTE/plugins/input-mask/js/jquery.inputmask.date.extensions.js",
                                          "~/AdminLTE/plugins/input-mask/js/jquery.inputmask.extensions.js"));
 
             // plugins | ionicons
-            bundles.Add(new StyleBundle("~/AdminLTE/plugins/ionicons/css").Include(
+            bundles.Add(new StyleBundle("~/AdminLTE/plugins/ionicons/cssboot").Include(
                                         "~/AdminLTE/plugins/ionicons/css/ionicons.min.css"));
 
             // plugins | ionslider
-            bundles.Add(new Bundle("~/AdminLTE/plugins/ionslider/js").Include(
+            bundles.Add(new Bundle("~/AdminLTE/plugins/ionslider/jsboot").Include(
                                          "~/AdminLTE/plugins/ionslider/js/ion.rangeSlider.min.js"));
 
-            bundles.Add(new StyleBundle("~/AdminLTE/plugins/ionslider/css").Include(
+            bundles.Add(new StyleBundle("~/AdminLTE/plugins/ionslider/cssboot").Include(
                                         "~/AdminLTE/plugins/ionslider/css/ion.rangeSlider.css",
                                         "~/AdminLTE/plugins/ionslider/css/ion.rangeSlider.skinNice.css"));
 
             // plugins | jquery
-            bundles.Add(new Bundle("~/AdminLTE/plugins/jquery/js").Include(
+            bundles.Add(new Bundle("~/AdminLTE/plugins/jquery/jsboot").Include(
                                          "~/AdminLTE/plugins/jquery/js/jQuery-2.1.4.min.js"));
 
             // plugins | jquery-validate
-            bundles.Add(new Bundle("~/AdminLTE/plugins/jquery-validate/js").Include(
+            bundles.Add(new Bundle("~/AdminLTE/plugins/jquery-validate/jsboot").Include(
                                          "~/AdminLTE/plugins/jquery-validate/js/jquery.validate*"));
 
             // plugins | jquery-ui
-            bundles.Add(new Bundle("~/AdminLTE/plugins/jquery-ui/js").Include(
+            bundles.Add(new Bundle("~/AdminLTE/plugins/jquery-ui/jsboot").Include(
                                          "~/AdminLTE/plugins/jquery-ui/js/jquery-ui.min.js"));
 
             // plugins | jvectormap
-            bundles.Add(new Bundle("~/AdminLTE/plugins/jvectormap/js").Include(
+            bundles.Add(new Bundle("~/AdminLTE/plugins/jvectormap/jsboot").Include(
                                          "~/AdminLTE/plugins/jvectormap/js/jquery-jvectormap-1.2.2.min.js",
                                          "~/AdminLTE/plugins/jvectormap/js/jquery-jvectormap-world-mill-en.js"));
 
-            bundles.Add(new StyleBundle("~/AdminLTE/plugins/jvectormap/css").Include(
+            bundles.Add(new StyleBundle("~/AdminLTE/plugins/jvectormap/cssboot").Include(
                                         "~/AdminLTE/plugins/jvectormap/css/jquery-jvectormap-1.2.2.css"));
 
             // plugins | knob
-            bundles.Add(new Bundle("~/AdminLTE/plugins/knob/js").Include(
+            bundles.Add(new Bundle("~/AdminLTE/plugins/knob/jsboot").Include(
                                          "~/AdminLTE/plugins/knob/js/jquery.knob.js"));
 
             // plugins | morris
-            bundles.Add(new StyleBundle("~/AdminLTE/plugins/morris/css").Include(
+            bundles.Add(new StyleBundle("~/AdminLTE/plugins/morris/cssboot").Include(
                                         "~/AdminLTE/plugins/morris/css/morris.css"));
 
             // plugins | momentjs
-            bundles.Add(new Bundle("~/AdminLTE/plugins/momentjs/js").Include(
+            bundles.Add(new Bundle("~/AdminLTE/plugins/momentjs/jsboot").Include(
                                          "~/AdminLTE/plugins/momentjs/js/moment.min.js"));
 
             // plugins | pace
-            bundles.Add(new Bundle("~/AdminLTE/plugins/pace/js").Include(
+            bundles.Add(new Bundle("~/AdminLTE/plugins/pace/jsboot").Include(
                                          "~/AdminLTE/plugins/pace/js/pace.min.js"));
 
-            bundles.Add(new StyleBundle("~/AdminLTE/plugins/pace/css").Include(
+            bundles.Add(new StyleBundle("~/AdminLTE/plugins/pace/cssboot").Include(
                                         "~/AdminLTE/plugins/pace/css/pace.min.css"));
 
             // plugins | slimscroll
-            bundles.Add(new Bundle("~/AdminLTE/plugins/slimscroll/js").Include(
+            bundles.Add(new Bundle("~/AdminLTE/plugins/slimscroll/jsboot").Include(
                                          "~/AdminLTE/plugins/slimscroll/js/jquery.slimscroll.min.js"));
 
             // plugins | sparkline
-            bundles.Add(new Bundle("~/AdminLTE/plugins/sparkline/js").Include(
+            bundles.Add(new Bundle("~/AdminLTE/plugins/sparkline/jsboot").Include(
                                          "~/AdminLTE/plugins/sparkline/js/jquery.sparkline.min.js"));
 
             // plugins | timepicker
-            bundles.Add(new Bundle("~/AdminLTE/plugins/timepicker/js").Include(
+            bundles.Add(new Bundle("~/AdminLTE/plugins/timepicker/jsboot").Include(
                                          "~/AdminLTE/plugins/timepicker/js/bootstrap-timepicker.min.js"));
 
-            bundles.Add(new StyleBundle("~/AdminLTE/plugins/timepicker/css").Include(
+            bundles.Add(new StyleBundle("~/AdminLTE/plugins/timepicker/cssboot").Include(
                                         "~/AdminLTE/plugins/timepicker/css/bootstrap-timepicker.min.css"));
 
             // plugins | raphael
-            bundles.Add(new Bundle("~/AdminLTE/plugins/raphael/js").Include(
+            bundles.Add(new Bundle("~/AdminLTE/plugins/raphael/jsboot").Include(
                                          "~/AdminLTE/plugins/raphael/js/raphael-min.js"));
 
             // plugins | select2
-            bundles.Add(new Bundle("~/AdminLTE/plugins/select2/js").Include(
+            bundles.Add(new Bundle("~/AdminLTE/plugins/select2/jsboot").Include(
                                          "~/AdminLTE/plugins/select2/js/select2.full.min.js"));
 
-            bundles.Add(new StyleBundle("~/AdminLTE/plugins/select2/css").Include(
+            bundles.Add(new StyleBundle("~/AdminLTE/plugins/select2/cssboot").Include(
                                         "~/AdminLTE/plugins/select2/css/select2.min.css"));
 
             // plugins | morris
-            bundles.Add(new Bundle("~/AdminLTE/plugins/morris/js").Include(
+            bundles.Add(new Bundle("~/AdminLTE/plugins/morris/jsboot").Include(
                                          "~/AdminLTE/plugins/morris/js/morris.min.js"));
 
         }
