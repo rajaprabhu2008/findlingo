@@ -31,6 +31,8 @@ namespace WebApplication
             RegisterExamples(bundles);
 
             RegisterDocumentation(bundles);
+
+            BundleTable.EnableOptimizations = true;
         }
 
         private static void RegisterDocumentation(BundleCollection bundles)
