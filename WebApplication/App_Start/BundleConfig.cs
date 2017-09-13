@@ -355,8 +355,8 @@ namespace WebApplication
                                          "~/AdminLTE/plugins/input-mask/js/jquery.inputmask.extensions.js"));
 
             // plugins | ionicons
-            bundles.Add(new StyleBundle("~/AdminLTE/plugins/ionicons/cssboot").Include(
-                                        "~/AdminLTE/plugins/ionicons/css/ionicons.min.css"));
+            bundles.Add(new StyleBundle("~/AdminLTE/plugins/ionicons/cssboot", "https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"));//.Include(
+                                       // "~/AdminLTE/plugins/ionicons/css/ionicons.min.css"));
 
             // plugins | ionslider
             bundles.Add(new Bundle("~/AdminLTE/plugins/ionslider/jsboot").Include(
