@@ -233,9 +233,9 @@ namespace WebApplication
 
         private static void RegisterLayout(BundleCollection bundles)
         {
-            
-            bundles.Add(new Bundle("~/AdminLTE/bootstrap/jsboot").Include(
-                "~/AdminLTE/bootstrap/js/bootstrap.min.js"));
+
+            bundles.Add(new Bundle("~/AdminLTE/bootstrap/jsboot", "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.css"));//.Include(
+                //"~/AdminLTE/bootstrap/js/bootstrap.min.js"));
 
             bundles.Add(new StyleBundle("~/AdminLTE/bootstrap/cssboot").Include(
                 "~/AdminLTE/bootstrap/css/bootstrap.min.css"));
