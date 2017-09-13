@@ -235,7 +235,7 @@ namespace WebApplication
             bundles.Add(new Bundle("~/AdminLTE/bootstrap/js").Include(
                 "~/AdminLTE/bootstrap/js/bootstrap.min.js"));
 
-            bundles.Add(new StyleBundle("~/AdminLTE/bootstrap/css").Include(
+            bundles.Add(new StyleBundle("~/AdminLTE/bootstrap/cssboot").Include(
                 "~/AdminLTE/bootstrap/css/bootstrap.min.css"));
             
             // dist
