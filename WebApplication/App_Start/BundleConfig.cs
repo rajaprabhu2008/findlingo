@@ -233,9 +233,9 @@ namespace WebApplication
 
         private static void RegisterLayout(BundleCollection bundles)
         {
-
-            bundles.Add(new Bundle("~/AdminLTE/bootstrap/jsboot", "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.css"));//.Include(
-                //"~/AdminLTE/bootstrap/js/bootstrap.min.js"));
+            
+            bundles.Add(new Bundle("~/AdminLTE/bootstrap/jsboot").Include(
+                "~/AdminLTE/bootstrap/js/bootstrap.min.js"));
 
             bundles.Add(new StyleBundle("~/AdminLTE/bootstrap/cssboot").Include(
                 "~/AdminLTE/bootstrap/css/bootstrap.min.css"));
@@ -322,8 +322,8 @@ namespace WebApplication
                                          "~/AdminLTE/plugins/flot/js/jquery.flot.categories.min.js"));
 
             // plugins | font-awesome
-            bundles.Add(new StyleBundle("~/AdminLTE/plugins/font-awesome/cssboot", "http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css"));//.Include(
-                                       // "~/AdminLTE/plugins/font-awesome/css/font-awesome.min.css"));
+            bundles.Add(new StyleBundle("~/AdminLTE/plugins/font-awesome/cssboot").Include(
+                                        "~/AdminLTE/plugins/font-awesome/css/font-awesome.min.css"));
 
             // plugins | fullcalendar
             bundles.Add(new Bundle("~/AdminLTE/plugins/fullcalendar/jsboot").Include(
@@ -355,8 +355,8 @@ namespace WebApplication
                                          "~/AdminLTE/plugins/input-mask/js/jquery.inputmask.extensions.js"));
 
             // plugins | ionicons
-            bundles.Add(new StyleBundle("~/AdminLTE/plugins/ionicons/cssboot", "https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"));//.Include(
-                                       // "~/AdminLTE/plugins/ionicons/css/ionicons.min.css"));
+            bundles.Add(new StyleBundle("~/AdminLTE/plugins/ionicons/cssboot").Include(
+                                        "~/AdminLTE/plugins/ionicons/css/ionicons.min.css"));
 
             // plugins | ionslider
             bundles.Add(new Bundle("~/AdminLTE/plugins/ionslider/jsboot").Include(
