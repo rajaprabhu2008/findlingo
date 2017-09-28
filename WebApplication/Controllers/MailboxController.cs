@@ -2,7 +2,7 @@
 
 namespace WebApplication.Controllers
 {
-    public class MailboxController : Controller
+    public class TranslateController : Controller
     {
         public ActionResult Inbox()
         {
