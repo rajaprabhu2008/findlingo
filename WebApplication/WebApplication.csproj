@@ -1097,9 +1097,9 @@
     <Content Include="Views\Forms\Advanced.cshtml" />
     <Content Include="Views\Forms\Editors.cshtml" />
     <Content Include="Views\Forms\General.cshtml" />
-    <Content Include="Views\Mailbox\Compose.cshtml" />
-    <Content Include="Views\Mailbox\Inbox.cshtml" />
-    <Content Include="Views\Mailbox\Read.cshtml" />
+    <Content Include="Views\Translate\Compose.cshtml" />
+    <Content Include="Views\Translate\Inbox.cshtml" />
+    <Content Include="Views\Translate\Read.cshtml" />
     <Content Include="Views\Tables\Data.cshtml" />
     <Content Include="Views\Tables\Simple.cshtml" />
     <Content Include="Views\Widgets\Index.cshtml" />
